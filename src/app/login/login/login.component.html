@@ -1,0 +1,18 @@
+<div>
+<section class="form-login">
+	<h1>Login</h1>
+      <div>
+    	  <input class = "controls" type="text" placeholder="Nombre de usuario" [(ngModel)]="nombre"/>
+        <img class = "alert" src=".\assets\alerta.png"*ngIf="!passwordObligatoria" alt="">
+        <span class="amarillo" *ngIf="!usuarioObligatorio">El nombre es obligatorio</span>
+      </div>
+      <div>
+        <input class = "controls" type="password" placeholder="Contraseña" [(ngModel)]="password" />
+        <img class = "alert" src=".\assets\alerta.png"*ngIf="!passwordObligatoria" alt="">
+        <span class="amarillo" *ngIf="!passwordObligatoria">La contraseña es obligatorio</span>
+      </div>
+      <button (click)="enviar()" class = "button" type="submit">Entrar</button>
+      <img class = "alert" src=".\assets\alerta.png"*ngIf="!usuarioCorrecto" alt="">
+      <span  class="amarillo" *ngIf="!usuarioCorrecto">El usuario introducido no esta registrado</span>
+  </section>
+</div>

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Raul",
+        "email": "raul@example.es",
+        "ocupacion": "CEO & Founder",
+        "img": "./assets/img/raul.jpg",
+        "sobreNosotros": "Raul es el fundador de Gameteca, encargado de las relaciones con los clientes y de comunicar lo que precisa al equipo desarrollador" 
+    },{
+        "id": 2,
+        "name": "Álvaro",
+        "email": "alvaro@example.es",
+        "ocupacion": "Programador",
+        "sobreNosotros":"Álvaro es un iniciado en programación, encargado de la funcionalidad y las caracteristicas de nuestras páginas web",
+        "img": "./assets/img/alvaro.jpg" 
+    },{
+        "id": 3,
+        "name": "Carlos",
+        "email": "carlos@example.es",
+        "ocupacion": "Diseñador gráfico",
+        "img": "./assets/img/carlos.jpg" ,
+        "sobreNosotros":"Especialista en diseño, encargado de la parte gráfica de la aplicación y de hacer que el cliente se sienta comodo con la parte visual del producto"
+    }
+]

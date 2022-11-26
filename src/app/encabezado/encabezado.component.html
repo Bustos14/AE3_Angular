@@ -1,0 +1,20 @@
+<header>
+  <div class="content">  
+    <nav>
+      <div (click)="goHome()" >
+        <img class="logo"src=".\assets\logo2.png" alt="">
+      </div>
+      <a [routerLink]="['/listajuegos']" class="enlace">Inicio</a>
+      <a  [routerLink]="['/contacto']" class="enlace">Contacto</a>
+      <div class="dropdown">
+        <button class="dropbtn">Juegos
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a *ngFor="let videojuegos of Games" [routerLink]="['/details', videojuegos.id]">{{videojuegos.title}} </a>
+        </div>
+        </div>
+    </nav>
+  </div>
+
+</header>

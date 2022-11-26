@@ -1,0 +1,59 @@
+.container{
+    justify-content: center;
+    padding: 10px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-align: center;
+    background: linear-gradient(to bottom, #f58c37 0%, #000000 87%);
+}
+h1{
+    color: white;
+}
+img{
+    width: 60%;
+    margin-top: 24px;
+    height: 400px;
+    justify-self: center;
+    grid-column: 3/5;
+    grid-row: 1/2;
+    box-shadow: 6px 6px 4px 4px black;
+}
+.details{
+    grid-column: 1/3; 
+    grid-row: 1/3;
+    margin-left: 40px;
+}
+p{
+    font-size: larger;
+}
+br { line-height: 10px;}
+
+.companyRating{
+    grid-column: 3/5; 
+    grid-row: 2/2;
+}
+.boton{
+    display: block;
+    grid-column: 1/3; 
+    grid-row: 2/2;
+    align-items: center;
+    margin-top: 10%;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #f0a262 0%, #da8300 87%);;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    box-shadow: 2px 2px 2px 2px black;
+    transition: box-shadow 0.5s ease 0s;
+    margin-left: 40px;
+}
+
+button:hover{
+    background: #f78c35;
+    box-shadow: 4px 4px 4px 4px black;
+}

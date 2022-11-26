@@ -1,0 +1,10 @@
+
+<div class="container">
+    <div class="contentTarjeta" *ngFor="let videojuegos of Games" >
+        <div class="prueba" (click)="verDetalles(videojuegos.id)" >
+            <img src={{videojuegos.cover}} class="card-img-top" alt="Videojuego"  >
+            <h3 class="card-title"> {{videojuegos.title}}</h3>
+            <h4>Valoración media: {{videojuegos.rating}}</h4>
+        </div>
+    </div>
+</div>

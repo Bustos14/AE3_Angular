@@ -1,0 +1,165 @@
+[
+
+	{
+
+		"id": 1,
+
+		"title": "Call of Duty",
+
+		"company": "Microsoft",
+
+		"cover": "./assets/img/cod.jpg",
+
+		"rating": 7.8,
+
+		"detail": "Fue desarrollado por Infinity Ward, con la colaboración de Pi Studios, y publicado al mercado el 4 de noviembre de 2005 para PC, un mes más tarde lo hizo para Xbox 360 simultáneamente con la salida de esta videoconsola. Al igual que su predecesor está basado en la Segunda Guerra Mundial."
+
+	},
+
+	{
+
+		"id": 2,
+
+		"title": "God of War",
+
+		"company": "SCE Santa Monica Studio",
+
+		"cover": "./assets/img/godofwar.jpg",
+
+		"rating": 8,
+
+		"detail": "En resumen, todo God of War 4 fue un viaje de Kratos y su hijo, Atreus, hasta la cima más alta del mundo para depositar las cenizas de su mujer, Faye. Ocultándose de los Dioses como mortales, Atreus se enteraba de que su padre era un Dios y él, por tanto, un Semidios."
+
+	},
+
+	{
+
+		"id": 3,
+
+		"title": "Grand Theft Auto V",
+
+		"company": "Rockstar ",
+
+		"cover": "./assets/img/gta.jpg",
+
+		"rating": 7.8,
+
+		"detail": "Grand Theft Auto cuenta la historia de distintos criminales y aunque sean varios, por una razón se van relacionando y envolviendo en problemas a más personajes conforme va pasando el tiempo. Generalmente los protagonistas son antihéroe"
+
+	},
+
+	{
+
+		"id": 4,
+
+		"title": "Zelda Breath of the Wild",
+
+		"company": "Nintendo EPD",
+
+		"cover": "./assets/img/zelda.jpg",
+
+		"rating": 7.9,
+
+		"detail": "Su trama por lo general describe las heroicas aventuras del joven guerrero Link, que debe enfrentarse a peligros y resolver acertijos para ayudar a la Princesa Zelda a derrotar a Ganondorf y salvar su hogar, el reino de Hyrule."
+
+	},
+
+	{
+
+		"id": 5,
+
+		"title": "Skyrim",
+
+		"company": "Bethesda Game Studios",
+
+		"cover": "./assets/img/skyrim.jpg",
+
+		"rating": 7.8,
+
+		"detail": "La historia de Skyrim se centra en los esfuerzos del personaje, Dovahkiin (sangre de dragón), para derrotar a Alduin, un dragón/dovah que, según la profecía, destruirá el mundo. La trama está fechada doscientos años después de los sucesos de Oblivion y tiene lugar en la provincia ficticia de Skyrim ."
+
+	},
+
+	{
+
+		"id": 6,
+
+		"title": "Grounded",
+
+		"company": "Obsidian Entertainment",
+
+		"cover": "./assets/img/grounded.jpg",
+
+		"rating": 8.3,
+
+		"detail": " Su historia nos narra cómo unos niños despiertan un buen día como otro cualquiera para encontrarse con una desagradable sorpresa: han sido encogidos hasta el tamaño de un insecto. Por si no fuese suficiente, no recuerdan nada y se hallan en el jardín de una casa, donde las briznas de hierba tapan la luz del sol y los bichos son auténticos depredadores capaces de acabar con sus vidas al más mínimo despiste. "
+
+	},
+
+	{
+
+		"id": 7,
+
+		"title": "A Plague Tale: Requiem",
+
+		"company": "Asobo Studio",
+
+		"cover": "./assets/img/plaguetale.jpg",
+
+		"rating": 8.9,
+
+		"detail": " A Plague Tale: Requiem continúa donde lo dejó Innocence. Tras descubrir que Hugo tiene el poder de controlar a las ratas, Amicia y el joven se dirigen al sur, buscando una cura para la maldición. Como no podía ser de otra manera, las cosas se torcerán de manera incontrolable y los hermanos de Rune siguen huyendo tanto de soldados, como de las terribles ratas que no hacen más que devorarlo todo a su paso. "
+
+	},
+
+	{
+
+		"id": 8,
+
+		"title": "League of Legend",
+
+		"company": "Riot Games",
+
+		"cover": "./assets/img/lol.jpg",
+
+		"rating": 7.8,
+
+		"detail": " League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.."
+
+	},
+
+	{
+
+		"id": 9,
+
+		"title": "Neverwinter Nigth",
+
+		"company": "Bioware Studio",
+
+		"cover": "./assets/img/nwn.jpg",
+
+		"rating": 9,
+
+		"detail": " Neverwinter Nights es una serie de videojuegos desarrollados por BioWare y Obsidian Entertainment, basados en el escenario de la campaña Forgotten Realms del juego de rol Dungeons & Dragons.  ."
+
+	},
+
+	{
+
+		"id": 10,
+
+		"title": "Stardew Valley",
+
+		"company": "ConcernedApe",
+
+		"cover": "./assets/img/stardew-valley.png",
+
+		"rating": 9.5,
+
+		"detail": " En Stardew Valley, el jugador toma el rol de un personaje que se encuentra atrapado en un trabajo de oficina y para escapar de él se va a vivir a la granja de su abuelo, la cual se encuentra en ruinas. La granja se encuentra ubicada en un lugar llamado Pueblo Pelícano.."
+
+	}
+
+
+
+]

@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="contentTarjeta" *ngFor="let contacto of listaContacto" >
+      <div class="prueba" (click)="verDetalles(contacto.id)" >
+          <img src={{contacto.img}} class="card-img-top" alt="Videojuego"  >
+          <h3 class="card-title"> {{contacto.name}}</h3>
+          <h4 class="card-title"> {{contacto.ocupacion}}</h4>
+      </div>
+  </div>
+</div>
