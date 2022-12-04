@@ -25,10 +25,12 @@ export class DetailsComponent implements OnInit {
     
   }
 
+  //Metodo para volver a la pantalla anterior(Listado de juegos)
   public backHome(){
     this.router.navigate(['/listajuegos'])
   }
 
+  //Metodo para obtener la información del juego
   public inforJuego( id: number){
    for (const g of this.Games) {
     if(id == g.id){

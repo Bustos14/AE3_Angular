@@ -13,6 +13,7 @@ export class DetallesContactoComponent implements OnInit {
     this.infoContacto(this.id);
    }
 
+   //Atributos del videojuego
   id: number = 0;
   name: string = '';
   email: string='';
@@ -22,7 +23,10 @@ export class DetallesContactoComponent implements OnInit {
   ngOnInit() {
   }
 
-  
+  /**
+   * 
+   * Metodo para obtener la información de contacto del listado de contactos. 
+   */
   public infoContacto( id: number){
     for (const g of this.listaContacto) {
      if(id == g.id){
@@ -34,6 +38,7 @@ export class DetallesContactoComponent implements OnInit {
      }
     }
    }
+   //Botón para volver atrás
    backHome(){
     this.router.navigate(['/contacto'])
    }

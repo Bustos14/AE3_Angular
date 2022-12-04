@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Usuario } from 'src/app/entidades/usuario';
 
@@ -9,16 +9,18 @@ import { Usuario } from 'src/app/entidades/usuario';
 })
 export class LoginComponent implements OnInit {
 
+  
   listaUsuarios : Usuario[] = [] ;
   usuario: Usuario | null = null;
 
-
+  @Input() mensaje: string;
+  nombre : string = ""
   //Habilitar mensaje de error, el nombre y password no deben
   //estar vacios
   usuarioObligatorio = true;
   passwordObligatoria = true;
   usuarioCorrecto = true;
-  nombre : string = ""
+
   password : string = ""
   constructor(private router: Router) { 
     let usuario: Usuario= new Usuario ("Alvaro", "alvaro123");
@@ -54,13 +56,19 @@ export class LoginComponent implements OnInit {
     return error;
   }
 /**
- *  Metodo para ocultar mensajes de error en el login
+ *  Metodo que controla los mensajes de error en el login
  */
   public mensajesDeError(){
     this.usuarioObligatorio = true
     this.passwordObligatoria = true
 		this.usuarioCorrecto = true;
   } 
+  
+  
+/**
+ * Comprueba si el usuario existe en el listado de usuarios. Funciona pasandole nombre y contraseña
+ * por parametro. Se obtienen del usuario.
+ */
 
   public usuarioExiste(nombre: String, password: String): boolean{
 		let comprobante : boolean = false;
